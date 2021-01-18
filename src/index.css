@@ -1,0 +1,183 @@
+.logo {
+width: 40%;
+margin-top: 22.81px;
+margin-left: 60px;
+margin-bottom: 24.63px;
+}
+
+.logo img{
+    width: 93px;
+    height: 104.56px;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 1em black;
+    background-color: #FFFFFF;
+}
+
+.nav-bar nav{
+    width: 40%;
+    max-width: 1440px;    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav-bar nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav-bar nav ul li{
+    margin-right: 38px;
+}
+
+.nav-bar nav ul li a{
+    color: #191426;
+    font-family: Poppins;
+}
+
+.btn{    
+    border: none;
+    width: 144px;
+    height: 50px;
+    padding-left: 31.15px;
+    padding-right: 31.15px;
+    color: #2C2247;
+    background-color: #ED9E0B;
+    border-radius: 5px;
+    font-family: Poppins-SemiBold;
+    font-size: 18px;
+    margin-left: 21px;
+    margin-right: 45px;
+    cursor: pointer;
+    display: flex;    
+    align-items: center;
+}
+
+.nav-bar nav p {
+    color: #191426;
+    font-size: 14px;
+    margin-right: 86px;
+    font-family: Poppins;
+}
+
+.nav-bar nav p b{
+    font-family: Poppins-Bold;
+}
+
+.nav-bar nav ul li:nth-child(5) a::after{
+    content: '';
+    display: block;
+    width: 39px;
+    height: 3px;
+    background: #3E2D6B;
+    margin-top: 4px;
+}
+
+.introduction{
+    background: url("./images/background_home.svg") center;
+    background-size: cover;
+    height: 956px;    
+    display: flex;
+    align-items: center;
+    margin-top: 152px;    
+}
+
+.introduction article{
+    width: 1100px;
+    height: 147px;
+    margin-left: 152px;
+}
+
+.introduction h2{    
+    font-size: 72px;
+    color: #F8F7F7;
+    font-family: Poppins-Medium;
+    margin-right: 5px;
+}
+
+.introduction h2 b{
+    font-family: Poppins-Bold;
+}
+
+.introduction article p{
+    font-size: 24px;
+    color: #F8F7F7;
+    font-family: Poppins-Medium;
+    margin-top: 55px;
+}
+
+.about {
+    margin-top: 74px;
+    margin-left: 151px;
+}
+
+.about header {
+    width: 530px;
+    height: 282px;
+    line-height: 36px;
+}
+
+.about article {
+    display: flex;
+}
+
+.about h2{
+    margin-bottom: 75px;
+    color: #3E2D6B;
+    font-size: 18px;
+    font-family: Poppins-SemiBold;
+}
+
+.about p {
+    font-size: 24px;
+    color: #302424;
+    font-family: Poppins;
+}
+
+.about span{    
+    font-size: 72px;
+    color: #3E2D6B;
+    font-family: Floane-BoldItalic;    
+}
+
+.about div{
+    display: flex;
+    flex-direction: column;
+}
+
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url("./fonts/Poppins/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("./fonts/Poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./fonts/Poppins/Poppins-Regular.ttf");
+}    
+
+@font-face {
+    font-family: "Poppins-Medium";
+    src: url("./fonts/Poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Floane-BoldItalic";
+    src: url("./fonts/floane/Floane-BoldItalic.otf");
+}
