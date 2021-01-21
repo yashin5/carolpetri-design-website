@@ -19,7 +19,7 @@ body{
 .logo {
 width: 40%;
 margin-top: 22.81px;
-margin-left: 60px;
+margin-left: 120px;
 margin-bottom: 24.63px;
 }
 
@@ -42,6 +42,7 @@ margin-bottom: 24.63px;
     right: 0;
     z-index:1;
     width: 100%;
+    height: 13%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,8 +51,8 @@ margin-bottom: 24.63px;
 }
 
 .nav-bar nav{
-    width: 40%;
-    max-width: 1440px;    
+    width: 50%;
+    max-width: 1440px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -95,7 +96,7 @@ margin-bottom: 24.63px;
 .nav-bar nav p {
     color: #191426;
     font-size: 0.875em;
-    margin-right: 86px;
+    margin-right: 120px;
     font-family: Poppins;
 }
 
@@ -117,9 +118,9 @@ margin-bottom: 24.63px;
     background: url("./images/background_home.svg") center;
     background-size: cover;
     min-width: 1440px;
-    height: 956px;    
+    height: 936px;    
     display: flex;
-    margin-top: 152px;    
+    margin-top: 12vh;    
     align-items: center;
     justify-content: center;
 }
@@ -293,10 +294,67 @@ margin-bottom: 24.63px;
 .jobs{
     min-width: 1440px;
     height: 746px;
-    background-color: #2C2247;
-    
+    background-color: #2C2247;    
+    display: flex;
+    justify-content: center;
 }
 
+.jobs div header{
+    margin-top: 79px;
+    margin-bottom: 70px;
+    width: 1196px;
+    font-size: 1.125em;
+    font-family: Poppins-SemiBold;
+    color: #FFFFFF;
+}
+
+.job-types-container{
+    display: flex;
+}
+
+.jobs div .job-types li{
+    font-size: 2.0625em;
+    font-family: Poppins;
+    color: #FFFFFF;
+    margin-bottom: 66px;
+}
+
+.carrousel{
+    position: relative;
+    bottom: 100px;
+    margin-left: 137px;
+}
+
+.carrousel div{    
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    line-height: 36px;
+    background-color: white;
+}
+.carrousel div p{
+    margin-top: 45px;
+    margin-bottom: 50px;
+    font-size: var(--small-text);
+    font-family: Poppins;
+    color: #000000;
+    width: 442px;
+    height: 319px;
+}
+
+/* .jobs .job-types ul li toggle{
+    color: #FFB833
+} */
+
+
+/* PROCESS *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+
+.process{
+    min-width: 1440px;
+    height: 1404px;
+    background-color: #F5EDED;
+}
 @font-face {
     font-family: "Poppins-SemiBold";
     src: url("./fonts/Poppins/Poppins-SemiBold.ttf");
